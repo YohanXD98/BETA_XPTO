@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    background-image: url(imagens/wallpaperflare.com_wallpaper.jpg);
+    background-repeat: no-repeat;
+}
+
+#header {
+    text-align: center;
+    color: rgb(253, 253, 253);
+    padding: 10px;
+    background-image: linear-gradient(rgb(0, 0, 0),rgba(146, 146, 146, 0));
+}
+
+@font-face {
+    font-family: "valorant";
+    src: url("fontes/Valorant Font.ttf")
+    format("truetype")
+}
+
+h1 {
+    font-family: "Valorant";
+ }
+
+ #content {
+    padding: 450px;
+ }
+
+#footer {
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0),black)
+}
